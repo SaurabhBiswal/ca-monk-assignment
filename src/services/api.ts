@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { Blog, CreateBlogInput } from '../types/blog.ts';
 
-const API_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = 'https://my-json-server.typicode.com/SaurabhBiswal/ca-monk-assignment';
 
 const api = axios.create({
     baseURL: API_BASE_URL,
