@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import { blogService } from '../services/api';
-import { Calendar, Tag, User, Clock, Share2 } from 'lucide-react';
+import { User, Share2 } from 'lucide-react';
 import { Button } from './ui/Button';
 
 interface BlogDetailProps {
