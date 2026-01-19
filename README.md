@@ -1,73 +1,71 @@
-# React + TypeScript + Vite
+# CA Monk Blog Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium blog application built with **React 19**, **TypeScript**, and **TanStack Query**. This project demonstrates modern frontend patterns, including server-state management, component modularity, and a premium UI/UX design using **Tailwind CSS 4**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Links
+- **Live Deployment**: [ca-monk-assignment-six.vercel.app](https://ca-monk-assignment-six.vercel.app/)
+- **Mock API (Live)**: [my-json-server.typicode.com/.../blogs](https://my-json-server.typicode.com/SaurabhBiswal/ca-monk-assignment/blogs)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌟 Key Features
 
-## Expanding the ESLint configuration
+- **Dynamic Data Orchestration**: Integrated TanStack Query for robust data fetching, caching, and state synchronization.
+- **Premium Split-View Layout**: Optimized dashboard interface featuring a sticky sidebar for seamless content discovery and a detailed reading pane.
+- **Granular Component Architecture**: Reusable UI components (Buttons, Cards, Forms) built for scalability and performance.
+- **Real-time UX**: Instant UI updates via Query Invalidation after successful blog creation.
+- **Responsive Design**: Fluid layouts that adapt perfectly from mobile handsets to ultra-wide desktops.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Technical Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Framework**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **State Management**: [TanStack Query v5](https://tanstack.com/query/latest)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Mock Backend**: [JSON Server](https://github.com/typicode/json-server)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📁 Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+src/
+├── components/       # Custom UI & Application Components
+│   ├── ui/           # Reusable Design System elements
+├── services/         # API & Axios configurations
+├── types/            # TypeScript Interface definitions
+├── App.tsx           # Global Layout & Routing Logic
+└── main.tsx          # App Entry & Provider Setup
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Installation
+```bash
+git clone https://github.com/SaurabhBiswal/ca-monk-assignment.git
+cd ca-monk-assignment
+npm install
 ```
+
+### 2. Run Mock Server (Backend)
+```bash
+npm run server
+```
+*Port: 3001*
+
+### 3. Run Development Server (Frontend)
+```bash
+npm run dev
+```
+*Port: 5173*
+
+---
+
+## 📈 Development Workflow
+This project follows a professional git workflow with **12+ granular commits**, showcasing a structured approach to building features, managing types, and refining UI/UX.
+
+## 👤 Author
+**Saurabh Biswal**
+*2025 B.Tech ECE Graduate | Aspiring Full Stack Developer*
+[LinkedIn](your-linkedin-link) | [Portfolio](your-portfolio-link)
