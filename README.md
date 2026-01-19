@@ -68,4 +68,4 @@ This project follows a professional git workflow with **12+ granular commits**, 
 ## 👤 Author
 **Saurabh Biswal**
 *2025 B.Tech ECE Graduate | Aspiring Full Stack Developer*
-[LinkedIn](your-linkedin-link) | [Portfolio](your-portfolio-link)
+[LinkedIn](https://www.linkedin.com/in/saurabh-biswal)
