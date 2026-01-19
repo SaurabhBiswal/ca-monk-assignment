@@ -4,13 +4,13 @@ A premium blog application built with **React 19**, **TypeScript**, and **TanSta
 
 ---
 
-## 🔗 Live Links
+##  Live Links
 - **Live Deployment**: [ca-monk-assignment-six.vercel.app](https://ca-monk-assignment-six.vercel.app/)
 - **Mock API (Live)**: [my-json-server.typicode.com/.../blogs](https://my-json-server.typicode.com/SaurabhBiswal/ca-monk-assignment/blogs)
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Dynamic Data Orchestration**: Integrated TanStack Query for robust data fetching, caching, and state synchronization.
 - **Premium Split-View Layout**: Optimized dashboard interface featuring a sticky sidebar for seamless content discovery and a detailed reading pane.
@@ -18,7 +18,7 @@ A premium blog application built with **React 19**, **TypeScript**, and **TanSta
 - **Real-time UX**: Instant UI updates via Query Invalidation after successful blog creation.
 - **Responsive Design**: Fluid layouts that adapt perfectly from mobile handsets to ultra-wide desktops.
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Framework**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
@@ -27,7 +27,7 @@ A premium blog application built with **React 19**, **TypeScript**, and **TanSta
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Mock Backend**: [JSON Server](https://github.com/typicode/json-server)
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -39,7 +39,7 @@ src/
 └── main.tsx          # App Entry & Provider Setup
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Installation
 ```bash
@@ -62,10 +62,7 @@ npm run dev
 
 ---
 
-## 📈 Development Workflow
-This project follows a professional git workflow with **12+ granular commits**, showcasing a structured approach to building features, managing types, and refining UI/UX.
-
-## 👤 Author
+## Author
 **Saurabh Biswal**
 *2025 B.Tech ECE Graduate | Aspiring Full Stack Developer*
 [LinkedIn](https://www.linkedin.com/in/saurabh-biswal)
